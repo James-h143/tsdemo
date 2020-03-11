@@ -1,0 +1,1 @@
+export  * as obj from './demo.ts'
