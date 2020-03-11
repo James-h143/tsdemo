@@ -1,4 +1,4 @@
-export default class testClass{
+export default class Person{
     #firstNameHardPriv: string;
     #lastNameHardPriv:string;
     private firstNameSoftPriv:string;
@@ -11,10 +11,10 @@ export default class testClass{
         this.lastNameSoftPriv = lname;
         this.fullName = `${this.#firstNameHardPriv} ${this.#lastNameHardPriv}`;
     }
-    getFirstName(){
+    getFirstName():string{
         return this.#firstNameHardPriv;
     }
-    getSecondName(){
+    getSecondName(): string{
         return this.#lastNameHardPriv;
     }
 }
