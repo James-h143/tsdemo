@@ -1,0 +1,4 @@
+#!/bin/bash
+#chmod +x this script and stick it in /usr/local/bin
+#saves you typing the below each time
+deno -c tsconfig.json --allow-read $1
