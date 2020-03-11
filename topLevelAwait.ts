@@ -1,4 +1,4 @@
-import { topLevelAwait } from "./lib/topLevelAwaitDemo.ts";
+import { topLevelAwait } from "./lib/topLevelAwait/demo.ts";
 
 async function main(): Promise<void> {
   topLevelAwait();
