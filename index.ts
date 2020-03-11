@@ -1,6 +1,6 @@
-import { test } from "./lib/index";
+import { test } from "./lib";
 
 async function main(): Promise<void> {
   test();
 }
-await main();
+main();
