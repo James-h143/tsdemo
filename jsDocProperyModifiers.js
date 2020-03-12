@@ -13,7 +13,6 @@ class Person{
 
 const james = new Person('James', 'Hennigan');
 
-//this should work but doesnt
 console.log(james.firstName);
 console.log(james.lastName);
 console.log(james.fullName);
