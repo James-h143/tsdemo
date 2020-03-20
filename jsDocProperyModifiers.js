@@ -1,6 +1,6 @@
 //@ts-check
 
-class Person{
+class Person2{
     constructor(fname,lname){
         /** @private */
         this.firstName = fname;
@@ -11,8 +11,8 @@ class Person{
     }
 }
 
-const james = new Person('James', 'Hennigan');
+const jamesh = new Person2('James', 'Hennigan');
 
-console.log(james.firstName);
-console.log(james.lastName);
-console.log(james.fullName);
+console.log(jamesh.firstName);
+console.log(jamesh.lastName);
+console.log(jamesh.fullName);
